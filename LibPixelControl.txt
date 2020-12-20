@@ -1,0 +1,11 @@
+## Title: LibPixelControl
+## Author: Phrosty1
+## APIVersion: 100032 100033
+## Version: 1.0.0
+## AddOnVersion: 001
+## IsLibrary: true
+## Description: Library to control controls.
+
+## This Add-On is not created by, affiliated with or sponsored by ZeniMax Media Inc. or its affiliates. The Elder Scrolls® and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the United States and/or other countries. All rights reserved.
+
+LibPixelControl.lua
