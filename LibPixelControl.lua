@@ -126,8 +126,8 @@ LibPixelControl = LibPixelControl or {
 	VM_MOVE_10_RIGHT = 125,
 }
 -- local constants
-local cnstX = 0
-local cnstY = 7
+local cnstX = 3
+local cnstY = 0
 local cnstColor = "010203"
 local cnstEndColor = "030201"
 local numDataPixels = 6
