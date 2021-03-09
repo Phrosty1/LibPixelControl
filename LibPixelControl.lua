@@ -1,129 +1,135 @@
 LibPixelControl = LibPixelControl or {
-	VK_BACK_SPACE = 1,
-	VK_TAB = 2,
-	VK_ENTER = 3,
-	VK_CLEAR = 4,
-	VK_SHIFT = 5,
-	VK_CONTROL = 6,
-	VK_ALT = 7,
-	VK_PAUSE = 8,
-	VK_CAPS_LOCK = 9,
-	VK_ESCAPE = 10,
-	VK_SPACE = 11,
-	VK_PAGE_UP = 12,
-	VK_PAGE_DOWN = 13,
-	VK_END = 14,
-	VK_HOME = 15,
-	VK_LEFT = 16,
-	VK_UP = 17,
-	VK_RIGHT = 18,
-	VK_DOWN = 19,
-	VK_COMMA = 20,
-	VK_MINUS = 21,
-	VK_PERIOD = 22,
-	VK_SLASH = 23,
-	VK_0 = 24,
-	VK_1 = 25,
-	VK_2 = 26,
-	VK_3 = 27,
-	VK_4 = 28,
-	VK_5 = 29,
-	VK_6 = 30,
-	VK_7 = 31,
-	VK_8 = 32,
-	VK_9 = 33,
-	VK_SEMICOLON = 34,
-	VK_EQUALS = 35,
-	VK_A = 36,
-	VK_B = 37,
-	VK_C = 38,
-	VK_D = 39,
-	VK_E = 40,
-	VK_F = 41,
-	VK_G = 42,
-	VK_H = 43,
-	VK_I = 44,
-	VK_J = 45,
-	VK_K = 46,
-	VK_L = 47,
-	VK_M = 48,
-	VK_N = 49,
-	VK_O = 50,
-	VK_P = 51,
-	VK_Q = 52,
-	VK_R = 53,
-	VK_S = 54,
-	VK_T = 55,
-	VK_U = 56,
-	VK_V = 57,
-	VK_W = 58,
-	VK_X = 59,
-	VK_Y = 60,
-	VK_Z = 61,
-	VK_OPEN_BRACKET = 62,
-	VK_BACK_SLASH = 63,
-	VK_CLOSE_BRACKET = 64,
-	VK_NUMPAD0 = 65,
-	VK_NUMPAD1 = 66,
-	VK_NUMPAD2 = 67,
-	VK_NUMPAD3 = 68,
-	VK_NUMPAD4 = 69,
-	VK_NUMPAD5 = 70,
-	VK_NUMPAD6 = 71,
-	VK_NUMPAD7 = 72,
-	VK_NUMPAD8 = 73,
-	VK_NUMPAD9 = 74,
-	VK_MULTIPLY = 75,
-	VK_ADD = 76,
-	VK_SEPARATER = 77,
-	VK_SEPARATOR = 78,
-	VK_SUBTRACT = 79,
-	VK_DECIMAL = 80,
-	VK_DIVIDE = 81,
-	VK_F1 = 82,
-	VK_F2 = 83,
-	VK_F3 = 84,
-	VK_F4 = 85,
-	VK_F5 = 86,
-	VK_F6 = 87,
-	VK_F7 = 88,
-	VK_F8 = 89,
-	VK_F9 = 90,
-	VK_F10 = 91,
-	VK_F11 = 92,
-	VK_F12 = 93,
-	VK_DELETE = 94,
-	VK_NUM_LOCK = 95,
-	VK_SCROLL_LOCK = 96,
-	VK_AMPERSAND = 97,
-	VK_ASTERISK = 98,
-	VK_QUOTEDBL = 99,
-	VK_LESS = 100,
-	VK_PRINTSCREEN = 101,
-	VK_INSERT = 102,
-	VK_GREATER = 103,
-	VK_BRACELEFT = 104,
-	VK_BRACERIGHT = 105,
-	VK_BACK_QUOTE = 106,
-	VK_QUOTE = 107,
-	VK_KP_UP = 108,
-	VK_KP_DOWN = 109,
-	VK_KP_LEFT = 110,
-	VK_KP_RIGHT = 111,
-	VK_WINDOWS = 112,
-	VM_BTN_LEFT = 113,
-	VM_BTN_MIDDLE = 114,
-	VM_BTN_RIGHT = 115,
-	VM_WHEEL_UP = 116,
-	VM_WHEEL_DOWN = 117,
-	VM_MOVE_UP = 118,
-	VM_MOVE_DOWN = 119,
-	VM_MOVE_LEFT = 120,
-	VM_MOVE_RIGHT = 121,
-	VM_MOVE_10_UP = 122,
-	VM_MOVE_10_DOWN = 123,
-	VM_MOVE_10_LEFT = 124,
-	VM_MOVE_10_RIGHT = 125,
+	PX_CONST_1 = 1,
+	VK_BACK_SPACE = 2,
+	VK_TAB = 3,
+	VK_ENTER = 4,
+	VK_CLEAR = 5,
+	VK_SHIFT = 6,
+	VK_CONTROL = 7,
+	VK_ALT = 8,
+	VK_PAUSE = 9,
+	VK_CAPS_LOCK = 10,
+	VK_ESCAPE = 11,
+	VK_SPACE = 12,
+	VK_PAGE_UP = 13,
+	VK_PAGE_DOWN = 14,
+	VK_END = 15,
+	VK_HOME = 16,
+	VK_LEFT = 17,
+	VK_UP = 18,
+	VK_RIGHT = 19,
+	VK_DOWN = 20,
+	VK_COMMA = 21,
+	VK_MINUS = 22,
+	VK_PERIOD = 23,
+	VK_SLASH = 24,
+	PX_CONST_2 = 25,
+	VK_0 = 26,
+	VK_1 = 27,
+	VK_2 = 28,
+	VK_3 = 29,
+	VK_4 = 30,
+	VK_5 = 31,
+	VK_6 = 32,
+	VK_7 = 33,
+	VK_8 = 34,
+	VK_9 = 35,
+	VK_SEMICOLON = 36,
+	VK_EQUALS = 37,
+	VK_A = 38,
+	VK_B = 39,
+	VK_C = 40,
+	VK_D = 41,
+	VK_E = 42,
+	VK_F = 43,
+	VK_G = 44,
+	VK_H = 45,
+	VK_I = 46,
+	VK_J = 47,
+	VK_K = 48,
+	PX_CONST_3 = 49,
+	VK_L = 50,
+	VK_M = 51,
+	VK_N = 52,
+	VK_O = 53,
+	VK_P = 54,
+	VK_Q = 55,
+	VK_R = 56,
+	VK_S = 57,
+	VK_T = 58,
+	VK_U = 59,
+	VK_V = 60,
+	VK_W = 61,
+	VK_X = 62,
+	VK_Y = 63,
+	VK_Z = 64,
+	VK_OPEN_BRACKET = 65,
+	VK_BACK_SLASH = 66,
+	VK_CLOSE_BRACKET = 67,
+	VK_NUMPAD0 = 68,
+	VK_NUMPAD1 = 69,
+	VK_NUMPAD2 = 70,
+	VK_NUMPAD3 = 71,
+	VK_NUMPAD4 = 72,
+	PX_CONST_4 = 73,
+	VK_NUMPAD5 = 74,
+	VK_NUMPAD6 = 75,
+	VK_NUMPAD7 = 76,
+	VK_NUMPAD8 = 77,
+	VK_NUMPAD9 = 78,
+	VK_MULTIPLY = 79,
+	VK_ADD = 80,
+	VK_SEPARATER = 81,
+	VK_SEPARATOR = 82,
+	VK_SUBTRACT = 83,
+	VK_DECIMAL = 84,
+	VK_DIVIDE = 85,
+	VK_F1 = 86,
+	VK_F2 = 87,
+	VK_F3 = 88,
+	VK_F4 = 89,
+	VK_F5 = 90,
+	VK_F6 = 91,
+	VK_F7 = 92,
+	VK_F8 = 93,
+	VK_F9 = 94,
+	VK_F10 = 95,
+	VK_F11 = 96,
+	PX_CONST_5 = 97,
+	VK_F12 = 98,
+	VK_DELETE = 99,
+	VK_NUM_LOCK = 100,
+	VK_SCROLL_LOCK = 101,
+	VK_AMPERSAND = 102,
+	VK_ASTERISK = 103,
+	VK_QUOTEDBL = 104,
+	VK_LESS = 105,
+	VK_PRINTSCREEN = 106,
+	VK_INSERT = 107,
+	VK_GREATER = 108,
+	VK_BRACELEFT = 109,
+	VK_BRACERIGHT = 110,
+	VK_BACK_QUOTE = 111,
+	VK_QUOTE = 112,
+	VK_KP_UP = 113,
+	VK_KP_DOWN = 114,
+	VK_KP_LEFT = 115,
+	VK_KP_RIGHT = 116,
+	VK_WINDOWS = 117,
+	VM_BTN_LEFT = 118,
+	VM_BTN_MIDDLE = 119,
+	VM_BTN_RIGHT = 120,
+	PX_CONST_6 = 121,
+	VM_WHEEL_UP = 122,
+	VM_WHEEL_DOWN = 123,
+	VM_MOVE_UP = 124,
+	VM_MOVE_DOWN = 125,
+	VM_MOVE_LEFT = 126,
+	VM_MOVE_RIGHT = 127,
+	VM_MOVE_10_UP = 128,
+	VM_MOVE_10_DOWN = 129,
+	VM_MOVE_10_LEFT = 130,
+	VM_MOVE_10_RIGHT = 131,
 }
 -- local constants
 local cnstX = 3
@@ -170,12 +176,19 @@ colorDataLineCnst:SetAnchor(TOPRIGHT, colorDataWindow, TOPLEFT, cnstX+1, cnstY)
 colorDataLineCnst:SetColor(GetColorFromHex(cnstColor))
 local bools = {}
 for i=1,24*numDataPixels do bools[i] = 0 end
+bools[LibPixelControl.PX_CONST_1] = 1
+bools[LibPixelControl.PX_CONST_2] = 0
+bools[LibPixelControl.PX_CONST_3] = 1
+bools[LibPixelControl.PX_CONST_4] = 0
+bools[LibPixelControl.PX_CONST_5] = 1
+bools[LibPixelControl.PX_CONST_6] = 0
 local dataPixels = {}
 for i = 1, numDataPixels do
 	dataPixels[i] = CreateControl(nil, colorDataWindow, CT_LINE)
 	dataPixels[i]:SetAnchor(TOPLEFT, colorDataWindow, TOPLEFT, cnstX+i, cnstY)
 	dataPixels[i]:SetAnchor(TOPRIGHT, colorDataWindow, TOPLEFT, cnstX+i+1, cnstY)
-	dataPixels[i]:SetColor((0/255),(0/255),(0/255))
+	--dataPixels[i]:SetColor((0/255),(0/255),(0/255))
+	dataPixels[i]:SetColor(GetRGBFromBoolRange(Subrange(bools,(i*24)-23,(i*24))))
 end
 local colorDataLineEndCnst = CreateControl(nil, colorDataWindow, CT_LINE)
 colorDataLineEndCnst:SetAnchor(TOPLEFT, colorDataWindow, TOPLEFT, cnstX+numDataPixels+1, cnstY)
@@ -214,10 +227,9 @@ end
 function LibPixelControl.SetIndOnFor(idx, duration)
 	--d("SetIndOnFor idx:"..tostring(idx).." duration:"..tostring(duration))
 	if idx then
+		if duration == nil then duration = 20 end
 		LibPixelControl.SetIndOn(idx)
-		if duration then
-			zo_callLater(function() LibPixelControl.SetIndOff(idx) end, duration)
-		end
+		zo_callLater(function() LibPixelControl.SetIndOff(idx) end, duration)
 	else
 		d("no index:"..tostring(idx))
 	end
@@ -228,34 +240,5 @@ function LibPixelControl.IsIndOn(idx)
 	else
 		d("no index:"..tostring(idx))
 	end
-end
-
-local testlocalval = 1
-function LibPixelControl:SelfSetVal(val)
-	testlocalval = val
-	return testlocalval
-end
-function LibPixelControl:SelfGetVal()
-	return testlocalval
-end
-function LibPixelControl.SetVal(val)
-	testlocalval = val
-	return testlocalval
-end
-function LibPixelControl.GetVal()
-	return testlocalval
-end
-
-function LibPixelControl:SelfPrintVal(val)
-	d(val)
-end
-function LibPixelControl:SelfGetBackVal(val)
-	return val
-end
-function LibPixelControl.PrintVal(val)
-	d(val)
-end
-function LibPixelControl.GetBackVal(val)
-	return val
 end
 
