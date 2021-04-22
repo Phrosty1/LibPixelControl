@@ -170,6 +170,7 @@ end
 -- local objects
 local colorDataWindow = WINDOW_MANAGER:CreateTopLevelWindow("LibPixelControlWin")
 colorDataWindow:SetDimensions(10,10)
+colorDataWindow:SetTopmost(true)
 local colorDataLineCnst = CreateControl(nil, colorDataWindow, CT_LINE)
 colorDataLineCnst:SetAnchor(TOPLEFT, colorDataWindow, TOPLEFT, cnstX+0, cnstY)
 colorDataLineCnst:SetAnchor(TOPRIGHT, colorDataWindow, TOPLEFT, cnstX+1, cnstY)
